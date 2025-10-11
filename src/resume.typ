@@ -37,17 +37,10 @@
   )
 
   // Accent Color Styling
-  show heading: set text(
-    fill: if color-enabled {
-      rgb(text-color)
-    },
-  )
-
-  show link: set text(
-    fill: if color-enabled {
-      rgb(text-color)
-    },
-  )
+  if color-enabled {
+    show heading: set text(fill: rgb(text-color))
+    show link: set text(rgb(text-color))
+  }
 
   // Link styles
   show link: underline
