@@ -37,16 +37,11 @@
   )
 
   // Accent Color Styling
-  if color-enabled {
-    show heading: set text(fill: rgb(text-color))
-    show link: set text(rgb(text-color))
-  }
+  show heading: set text(fill: if color-enabled { rgb(text-color) } else { black })
+  show link: set text(fill: if color-enabled { rgb(text-color) } else { blue })
 
   // Link styles
   show link: underline
-  show link: set text(
-    fill: rgb(text-color),
-  )
 
   // Name will be aligned to center, bold and big
   show heading.where(level: 1): it => [
