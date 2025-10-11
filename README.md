@@ -96,4 +96,8 @@ Use these to quickly build your resume
 
 ## Example
 
-<img src="./example.png">
+### No Color
+<img src="./example-no-color.png">
+
+### Colored
+<img src="./example-colored.png">
