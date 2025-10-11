@@ -1,6 +1,6 @@
 [package]
 name = "ats-friendly-resume"
-version = "0.1.0"
+version = "0.1.1"
 entrypoint = "src/lib.typ"
 authors = ["Ban Gueco"]
 license = "Unlicense"
@@ -23,4 +23,3 @@ exclude = [
 path = "template"
 entrypoint = "main.typ"
 thumbnail = "thumbnail.png"
-
