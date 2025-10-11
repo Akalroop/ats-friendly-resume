@@ -33,7 +33,7 @@ Use these to quickly build your resume
   personal-info-position: center,
   // Document formatting and values
   // These are already defined by default, feel free to omit or edit them
-  color-enabled: true,
+  color-enabled: false,
   text-color: "#000080",
   font: "New Computer Modern",
   paper: "us-letter",
@@ -53,23 +53,27 @@ Use these to quickly build your resume
 // tech-used is optional so feel free to omit it.
 
 #work(
-  company: "Meow Solutions",
+  company: "Nimble Labs",
   role: "Full Stack Developer",
   dates: dates-util(start-date: "Sep 2021", end-date: "Present"),
-  location: "Gotham, Philippines",
+  location: "Manila, Philippines",
 )
-- Integrated meow for the cats.
-- Upgraded cars using meow framework.
+- Designed and maintained full-stack web applications using React and Hono, serving internal and external clients.
+- Built and integrated REST/GraphQL APIs for cross-service communication, improving data reliability and developer productivity.
+- Reduced API response times by 40% through query optimization and edge caching with Bun.
+- Collaborated with product and design teams to deliver responsive dashboards and analytics tools for customer operations.
 
 #work(
-  company: "Wayne Solutions",
-  role: "Batman's Assistant",
-  dates: dates-util(start-date: "Sep 1999"),
+  company: "AstraTech Solutions",
+  role: "Senior Software Engineer",
+  dates: dates-util(start-date: "Sep 1999", end-date: "Aug 2021"),
   tech-used: "React | TypeScript | Node.js",
-  location: "Gotham, Philippines",
+  location: "Manila, Philippines",
 )
-- Integrated React to Batmobile
-- Migrated Cobol system to TypeScript
+- Led migration from legacy systems to a modern TypeScript/Node.js backend, enabling quicker feature delivery and improved maintainability.
+- Developed monitoring and telemetry tooling to surface application health and performance metrics in real time.
+- Implemented CI/CD pipelines using GitHub Actions and Docker, reducing deployment time and rollback incidents.
+- Mentored junior engineers and established code review and testing best practices across the engineering team.
 
 == Projects
 
@@ -77,20 +81,32 @@ Use these to quickly build your resume
 // tech-used is optional so feel free to omit it.
 
 #project(
-  name: "Batmobile Management System",
-  dates: dates-util(start-date: "Sep 2002", end-date: "March 2003"),
+  name: "FleetOps Manager",
+  dates: dates-util(start-date: "Sep 2002", end-date: "Mar 2003"),
   tech-used: "React | TypeScript | Node.js",
-  url: "github.com/aybangueco/batmobile",
+  url: "github.com/aybangueco/fleetops",
 )
-- Integrated React to Batmobile
-- Migrated Cobol system to TypeScript
+- Architected a centralized platform for managing vehicle configurations, maintenance schedules, and upgrade histories.
+- Built telemetry dashboards for diagnostics and real-time alerts, increasing uptime and lowering maintenance costs.
+- Created RESTful APIs for logistics partners and internal tooling with robust authentication and role-based access.
+
+#project(
+  name: "CityWatch Incident Tracker",
+  dates: dates-util(start-date: "Jan 2020", end-date: "Dec 2020"),
+  tech-used: "Next.js | Go | PostgreSQL",
+  url: "github.com/aybangueco/citywatch",
+)
+- Developed an incident reporting and response coordination system for municipal operations.
+- Implemented analytics dashboards to track response times, incident trends, and resource allocation.
+- Deployed production workloads via Docker and GitHub Actions, improving release safety and observability.
 
 == Education
+
 #edu(
-  institution: "Batman University",
-  location: "Gotham, Philippines",
-  degree: "Bachelor of Science in Faking Degree",
-  dates: dates-util(start-date: "Jun 1995", end-date: "June 1999"),
+  institution: "Metropolitan University",
+  location: "Manila, Philippines",
+  degree: "Bachelor of Science in Computer Science",
+  dates: dates-util(start-date: "Sep 2021", end-date: "Jul 2025"),
 )
 ```
 
