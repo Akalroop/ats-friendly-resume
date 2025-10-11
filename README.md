@@ -1,4 +1,4 @@
-# ats-friendly-resume v0.1.0
+# ats-friendly-resume v0.1.1
 
 ATS friendly resume designed for developers. This was for personal use, there are alternatives but I feel like building my own from scratch and make it more ats friendly.
 
@@ -7,7 +7,7 @@ ATS friendly resume designed for developers. This was for personal use, there ar
 Use these to quickly build your resume
 
 ```typ
-#import "@preview/ats-friendly-resume:0.1.0": *
+#import "@preview/ats-friendly-resume:0.1.1": *
 
 // Your personal information replace mine with yours (pls don't steal my identity)
 #let name = "Ban Gueco"
