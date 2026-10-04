@@ -3,6 +3,9 @@
   // Name of the author (you)
   author: "",
   author-position: center,
+  //title
+  title: "",
+  title-position: center,
   // Personal Information
   location: "",
   email: "",
@@ -55,6 +58,20 @@
 
   // Level 1 Heading
   [= #(author)]
+
+  // Job title under the name when provided
+  if title != "" {
+    pad(
+      top: 0.15em,
+      align(title-position)[
+        #set text(
+          size: 0.7 * author-font-size,
+          weight: "regular",
+        )
+        #title
+      ],
+    )
+  }
 
   // Personal Information
   let contact-item(value, prefix: "", link-type: "") = {

@@ -11,6 +11,7 @@ Use these to quickly build your resume
 
 // Your personal information replace mine with yours (pls don't steal my identity)
 #let name = "Ban Gueco"
+#let title = "Senior Software Engineer"
 #let location = "Gotham, Philippines"
 // #let email = "example@gmail.com"
 // #let phone = "012345672"
@@ -20,6 +21,7 @@ Use these to quickly build your resume
 
 #show: resume.with(
   author: name,
+  title: title,
   author-position: center,
   // Personal information
   // Below these lines are optional

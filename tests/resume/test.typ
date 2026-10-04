@@ -11,6 +11,7 @@
 
 #show: resume.with(
   author: name,
+  title: "Senior Software Engineer",
   author-position: center,
   // Personal information
   // Below these lines are optional
