@@ -200,7 +200,7 @@
       top-left: strong(name),
       top-right: dates,
       bottom-left: tech-used,
-      bottom-right: [(#link("https://" + url)[#url])],
+      bottom-right: if url != "" [(#link("https://" + url)[#url])],
     )
   }
 }
